@@ -20,7 +20,7 @@ UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "none")
 
 
 bot = Client(
-    "V_Chat_Bot" ,
+    "GOKU_CHAT_Bot" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
