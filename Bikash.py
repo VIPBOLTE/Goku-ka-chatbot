@@ -102,8 +102,8 @@ async def chatbotofd(client, message):
         v.insert_one({"chat_id": message.chat.id})
         await message.reply_text(f"🌷🥺 ᴏғғ ᴋᴀʀ ᴅɪʏᴀ ʜᴀʀᴀᴍᴋʜᴏʀᴏ ɴᴇ 🥺!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🥀")
     if is_v:
-        await message.reply_text(f"🌷𝐕 𝐂𝐡𝐚𝐭𝐛𝐨𝐭 𝐈𝐬 𝐀𝐥𝐫𝐞𝐚𝐝𝐭 𝐃𝐢𝐬𝐚𝐛𝐥𝐞𝐝 🥀!\n\n𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐓𝐨 [𝐑𝐞𝐩𝐨𝐫𝐭](https://t.me/{SUPPORT_GROUP})  🥀\n\n[𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/{UPDATES_CHANNEL}) 🌷")
-    
+        await message.reply_text(f"😡ʙsᴅᴋ ᴀʟʀᴇᴀᴅʏ ᴏғғ ʜᴜ🥀!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🍁")
+        
 
 @bot.on_message(
     filters.command("chatbot on", prefixes=["/", ".", "?", "-"])
