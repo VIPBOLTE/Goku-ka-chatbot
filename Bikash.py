@@ -74,7 +74,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 💥 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💞", url=f"https://t.me/goku_groupz")
+                        " 💥🍁ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/goku_groupz")
                 ]
             ]
         ),
@@ -95,7 +95,7 @@ async def chatbotofd(client, message):
            await is_admins(chat_id)
         ):
            return await message.reply_text(
-                "💥 𝐇𝐞𝐲 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐀 𝐀𝐝𝐦𝐢𝐧 💥"
+                "💥 ᴏʏᴇ ᴀᴘᴘ ᴀᴅᴍɪɴ ɴʜɪ ʜᴏ⚡"
             )
     is_v = v.find_one({"chat_id": message.chat.id})
     if not is_v:
