@@ -9,7 +9,7 @@ Click Below Picture To Open GOKU CHAT Bot Owner Id...
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BikashhalderNew/BikashChatBot)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/VIPBOLTE/Goku-ka-chatbot.git)
 
 
 ## Deploy
@@ -27,13 +27,13 @@ Click Below Picture To Open GOKU CHAT Bot Owner Id...
 [Kaali Linux](https://youtu.be/fFRxAG1mCVU)
 
 ## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
-[𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+[𝗠𝗥 𝗚𝗢𝗞𝗨](https://t.me/Zindagi_hai_tere_nal)
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/goku_groupz)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/channelz_k)
 
 ## YouTube 📺
 
@@ -43,14 +43,14 @@ Click Below Picture To Open GOKU CHAT Bot Owner Id...
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
+[![MR GOKU](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/Zindagi_hai_tere_nal)
 
 
-#### Main Developer = [Bikash](https://t.me/BikashHalder)
+#### Main Developer = [GOKU](https://t.me/Zindagi_hai_tere_nal)
 
 ## 💕 Special Thanks
 
-✅ Aditya Halder Thanks For Fixed All Error Or Lovely Support 💕
+✅ Krishna Thanks For Fixed All Error Or Lovely Support 💕
 
 
-## 🥀 Powered By [BikashHalder](https://t.me/Bikashhalder) & [AdityaHalder](https://t.me/Adityahalder)
+## 🥀 Powered By [MR GOKU](https://t.me/Zindagi_hai_tere_nal) & [Krishna](https://t.me/Majha_Radhe)
