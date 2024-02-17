@@ -132,7 +132,7 @@ async def chatboton(client, message):
     filters.command("chatbot", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**🇮🇳 𝐔𝐬𝐚𝐠𝐞 🌷 :**\n/chatbot [on|off] 𝐎𝐧𝐥𝐲 𝐆𝐫𝐨𝐮𝐩 🇮🇳 !\n\n𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐓𝐨 [𝐑𝐞𝐩𝐨𝐫𝐭](https://
+    await message.reply_text(f"**🇮🇳 ᴜsᴀɢᴇ 🌷 :**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ 🇮🇳 !\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🌷
 
 
 @bot.on_message(
