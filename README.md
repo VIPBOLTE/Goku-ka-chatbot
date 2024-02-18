@@ -3,7 +3,7 @@ Best Smart Artificial intelligence Chat bot For Telegram Groups
 Click Below Picture To Open GOKU CHAT Bot Owner Id...
 
 
-<p align="center"><a href="https://t.me/Zindagi_hai_tere_nal"><img src="https://te.legra.ph/file/e30f5a295dd0ca45f0163.jpg"></a></p>
+<p align="center"><a href="https://t.me/Zindagi_hai_tere_nal"><img src="https://telegra.ph/file/75324963666800be62f5f.jpg"></a></p>
 
 
 
