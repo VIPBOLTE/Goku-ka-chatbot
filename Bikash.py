@@ -44,9 +44,9 @@ async def start_(client: Client, message: Message):
 ✨ʜᴇʏ ɪ'ᴍ ʙʜᴏᴘᴀʟɪ🥀.\n\n⚡ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʜᴀᴛ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ. \n\n💫 ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ❣️\n\n /chatbot - [on|off] ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣❥︎ ♕︎𝐎𝐰𝐧𝐞𝐫♕︎   » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{OWNER_USERNAME})
-┣❥︎ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{UPDATES_CHANNEL})
-┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{SUPPORT_GROUP})
+┣❥︎ ♕︎𝐎𝐰𝐧𝐞𝐫♕︎   » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/Zindagi_hai_tere_nal) 
+┣❥︎ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/channelz_k)
+┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/goku_groupz)
 ┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [✪☠︎︎➳ᴹᴿ᭄ᴳᴼᴷᵁ ᴳᴼᴰ ᴼᶠ ᶜᴸᴬᴺˢᴼᴾ᭄★](https://t.me/Zindagi_hai_tere_nal)
 ┗━━━━━━━━━━━━━━━━━┛
 
@@ -354,5 +354,5 @@ async def vprivatesticker(client: Client, message: Message):
                await message.reply_sticker(f"{hey}")
        
 bot.start()
-print("BGT CHAT BOT BOOTED SUCCESSFULLY")
+print("BHOPALI CHAT BOT BOOTED SUCCESSFULLY")
 idle()
