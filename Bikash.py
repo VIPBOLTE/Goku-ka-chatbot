@@ -69,7 +69,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
-        caption=f"""✨ʜᴇʏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʜᴀᴛ ʙᴏᴛ.❤️‍🔥 \n\n🪐 ɪ'ᴍ ʙʜᴏᴘᴀʟɪ ғʀᴏᴍ ɪɴᴅɪᴀ 🌹 \n\n🍂 ɪ'ᴍ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ 🌷\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/channelz_k) 🌷\n\n /chatbot - [on|off]""",
+        caption=f"""✨ʜᴇʏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʜᴀᴛ ʙᴏᴛ.❤️‍🔥 \n\n🪐 ɪ'ᴍ ʙʜᴏᴘᴀʟɪ ғʀᴏᴍ ɪɴᴅɪᴀ 🌹 \n\n🍂 ɪ'ᴍ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ 🌷\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/channelz_k) 🌷\n\n /chatbot - [on|off]""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -100,9 +100,9 @@ async def chatbotofd(client, message):
     is_v = v.find_one({"chat_id": message.chat.id})
     if not is_v:
         v.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"🌷🥺 ᴏғғ ᴋᴀʀ ᴅɪʏᴀ ʜᴀʀᴀᴍᴋʜᴏʀᴏ ɴᴇ 🥺!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🥀")
+        await message.reply_text(f"🌷🥺 ᴏғғ ᴋᴀʀ ᴅɪʏᴀ ʜᴀʀᴀᴍᴋʜᴏʀᴏ ɴᴇ 🥺!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🥀")
     if is_v:
-        await message.reply_text(f"😡ʙsᴅᴋ ᴀʟʀᴇᴀᴅʏ ᴏғғ ʜᴜ🥀!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🍁")
+        await message.reply_text(f"😡ʙsᴅᴋ ᴀʟʀᴇᴀᴅʏ ᴏғғ ʜᴜ🥀!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🍁")
         
 
 @bot.on_message(
@@ -122,17 +122,17 @@ async def chatboton(client, message):
             )
     is_v = v.find_one({"chat_id": message.chat.id})
     if not is_v:           
-        await message.reply_text(f"💥 ᴏɴ ʜᴜ ᴀʟʀᴇᴀᴅʏ ʙsᴅᴋ🤬!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
+        await message.reply_text(f"💥 ᴏɴ ʜᴜ ᴀʟʀᴇᴀᴅʏ ʙsᴅᴋ🤬!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
     if is_v:
         v.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f"❣️ ʙʜᴏᴘᴀʟɪ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
+        await message.reply_text(f"❣️ ʙʜᴏᴘᴀʟɪ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
     
 
 @bot.on_message(
     filters.command("chatbot", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**🇮🇳 ᴜsᴀɢᴇ 🌷 :**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ 🇮🇳 !\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷") 
+    await message.reply_text(f"**🇮🇳 ᴜsᴀɢᴇ 🌷 :**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ 🇮🇳 !\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷") 
 
 
 @bot.on_message(
