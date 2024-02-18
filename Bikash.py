@@ -132,7 +132,7 @@ async def chatboton(client, message):
     filters.command("chatbot", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**🇮🇳 ᴜsᴀɢᴇ 🌷 :**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ 🇮🇳 !\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷
+    await message.reply_text(f"**🇮🇳 ᴜsᴀɢᴇ 🌷 :**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ 🇮🇳 !\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷") 
 
 
 @bot.on_message(
