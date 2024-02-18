@@ -125,7 +125,7 @@ async def chatboton(client, message):
         await message.reply_text(f"💥 ᴏɴ ʜᴜ ᴀʟʀᴇᴀᴅʏ ʙsᴅᴋ🤬!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
     if is_v:
         v.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f""❣️ ʙʜᴏᴘᴀʟɪ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
+        await message.reply_text(f"❣️ ʙʜᴏᴘᴀʟɪ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/goku_groupz)  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/channelz_k) 🌷")
     
 
 @bot.on_message(
