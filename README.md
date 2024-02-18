@@ -43,7 +43,7 @@ Click Below Picture To Open GOKU CHAT Bot Owner Id...
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![MR GOKU](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/Zindagi_hai_tere_nal)
+[![MR GOKU](https://telegra.ph/file/a0c824b3ad40e8bd86db7.jpg)](https://t.me/Zindagi_hai_tere_nal)
 
 
 #### Main Developer = [GOKU](https://t.me/Zindagi_hai_tere_nal)
