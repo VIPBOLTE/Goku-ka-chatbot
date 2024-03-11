@@ -1,63 +1,52 @@
 {
-    "name": "BHOPALIROBOT", 
-    "description": "A Telegram Best Artificial Intelligence Chat Bot , written in Python with Pyrogram",
-    "logo": "https://telegra.ph/file/fe436182011922f5c6ab9.jpg",
-    "stack": "container",
+    "name": "chatbot",    
     "env": {
         "BOT_TOKEN": {
-            "description": "Input Bot token here",
+            "description": "telegram bot token here",
             "required": true
-        },
-        "OWNER_USERNAME": {
-            "description": "Input Owner Username here ( Without @)",
-            "required": true
-        },
-        "SUPPORT_GROUP": {
-            "description": "Input support group username here ( Without @)",
-            "required": true
-        },
-        "UPDATES_CHANNEL": {
-            "description": "Input updates channel username here ( Without @) ",
+        },        
+        "MONGO_URL": {
+            "description": "mongo db url here",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "Input Bot USERNAME here ( Without @)",
-            "required": true
-        },  
-        "BOT_IMAGE": {
-            "description": "Input Bot start pic link here",
-            "required": true
-        },       
-        "MONGO_URL": {
-            "description": "Input mongo db url here",
-            "required": true
+            "description": "telegram bot username here without @",
+            "required": false
         },
+        "OWNER_USERNAME": {
+            "description": "Owner id without ",
+            "required": false
+        },
+        "BOT_NAME": {
+            "description": "Simple Bot-name. Do not use Modified Text..",
+            "required": false
+        },
+        "UPDATE_CHNL": {
+            "description": "Your Updates Channel without @",
+            "required": false
+        },
+        "SUPPORT_GRP": {
+            "description": "Your Support Group without @",
+            "required": false
+        },
+        
+        "START_IMG": {
+            "description": "Start Image For Bot.",
+            "required": false
+        },
+        
         "API_ID": {
-            "description": "Input api id here",
+            "description": "telegram api id here",
             "required": true
         },
         "API_HASH": {
-            "description": "Input api hash here",
+            "description": "telegram api hash here",
             "required": true
         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
     "addons": [
         {
             "plan": "heroku-postgresql"
         }
-    ],
-    "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-    }
+    ]
 }
