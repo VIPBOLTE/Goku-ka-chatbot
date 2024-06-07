@@ -36,52 +36,6 @@ async def is_admins(chat_id: int):
     ]
 
 
-@bot.on_message(filters.command("start") & filters.private)
-async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-✨ʜᴇʏ ɪ'ᴍ ʙʜᴏᴘᴀʟɪ🥀.\n\n⚡ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʜᴀᴛ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ. \n\n💫 ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs ❣️\n\n /chatbot - [on|off] ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ
-
-┏━━━━━━━━━━━━━━━━━┓
-┣❥︎ ♕︎𝐎𝐰𝐧𝐞𝐫♕︎   » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/Zindagi_hai_tere_nal) 
-┣❥︎ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/channelz_k)
-┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/goku_groupz)
-┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [✪☠︎︎➳ᴹᴿ᭄ᴳᴼᴷᵁ ᴳᴼᴰ ᴼᶠ ᶜᴸᴬᴺˢᴼᴾ᭄★](https://t.me/Zindagi_hai_tere_nal)
-┗━━━━━━━━━━━━━━━━━┛
-
-💞 💞 ᴀᴅᴅ ᴍᴇ » ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ
-ᴇɴᴊᴏʏ sᴜᴘᴇʀ ǫᴜᴀʟɪᴛʏ ❥︎ᴄʜᴀᴛ.
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "❰ ❤ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✨ ❱", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ]
-                
-           ]
-        ),
-    )
-    
-    
-@bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#GOKU", "#Krishna"]) & filters.group)
-async def start(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{BOT_IMAGE}",
-        caption=f"""✨ʜᴇʏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʜᴀᴛ ʙᴏᴛ.❤️‍🔥 \n\n🪐 ɪ'ᴍ ʙʜᴏᴘᴀʟɪ ғʀᴏᴍ ɪɴᴅɪᴀ 🌹 \n\n🍂 ɪ'ᴍ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ 🌷\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/{UPDATES_CHANNEL}) 🌷\n\n /chatbot - [on|off]""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        " 💥🍁ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/goku_groupz")
-                ]
-            ]
-        ),
-    )
-
-
-
 @bot.on_message(
     filters.command("chatbot off", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
